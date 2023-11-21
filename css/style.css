@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    width: 100dvw;
+    min-height: 100vh;
+    min-height: 100vh;
+}
+
+header h1{
+    display: grid;
+    justify-content: center;
+}
+
+.todo_form{
+    display: grid;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.todo_form form{
+    width: 20rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
